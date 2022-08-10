@@ -1,0 +1,111 @@
+.navbar {
+  .desktopSidebar {
+    display: none;
+  }
+
+  .topBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--boxes);
+    padding: 1rem;
+    position: relative;
+    svg {
+      color: var(--text);
+      width: 1.5rem;
+      height: 1.5rem;
+      cursor: pointer;
+    }
+
+    .logoHolder {
+      width: 6rem;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .walletInfo {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1154px) {
+  .navbar {
+    .mobileSidebar {
+      display: none;
+    }
+
+    .desktopSidebar {
+      display: flex;
+    }
+
+    .topBar {
+      padding: 0.8rem 2rem;
+      width: 100%;
+      z-index: 11;
+      place-content: space-between;
+
+      svg {
+        display: none;
+      }
+
+      .logoHolder {
+        width: 7rem;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+      }
+
+      .walletInfo {
+        display: flex;
+        color: var(--text);
+
+        .coin {
+          display: flex;
+          align-items: center;
+          background-color: var(--background);
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+          width: fit-content;
+
+          svg {
+            display: block;
+            width: 2rem;
+            height: 2rem;
+          }
+
+          p {
+            margin-left: 0.5rem;
+            font-size: 0.9rem;
+          }
+        }
+
+        button {
+          margin-left: 1rem;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          width: fit-content;
+          padding: 0.8rem;
+          border-radius: 0.5rem;
+          color: white;
+          border: none;
+          outline: none;
+          background: rgb(83, 163, 245);
+          background: linear-gradient(
+            -90deg,
+            rgba(83, 163, 245, 1) 0%,
+            rgba(32, 122, 214, 1) 100%
+          );
+
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Random Single Sided Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 25.56
+    },
+    "tvl": 4650123.85,
+    "host": "Ex Host 1",
+    "token": "Ex Token 1",
+    "stables": false,
+    "singleSided": true
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 18.45
+    },
+    "tvl": 3650123.85,
+    "host": "Ex Host 1",
+    "token": "Ex Token 2",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Single Sided Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 87.56
+    },
+    "tvl": 8660143.85,
+    "host": "Ex Host 2",
+    "token": "Ex Token 3",
+    "stables": false,
+    "singleSided": true
+  },
+  {
+    "name": "Random Stables Single Sided Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 13.23
+    },
+    "tvl": 4560123.23,
+    "host": "Ex Host 1",
+    "token": "Ex Token 4",
+    "stables": true,
+    "singleSided": true
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 15.87
+    },
+    "tvl": 59040596.23,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 167.89
+    },
+    "tvl": 456746787.87,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 12.56
+    },
+    "tvl": 12353245.23,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 5.67
+    },
+    "tvl": 135.25,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 87.56
+    },
+    "tvl": 12649058.23,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 254.65
+    },
+    "tvl": 40576.45,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 130.54
+    },
+    "tvl": 1239054.85,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 13.78
+    },
+    "tvl": 56451234.85,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 12.89
+    },
+    "tvl": 30928409.85,
+    "host": "Ex Host 2",
+    "token": "Ex Token 1",
+    "stables": true,
+    "singleSided": false
+  },
+  {
+    "name": "Random Stables Staking Crypt Inactive",
+    "profits": {
+      "day": 0.074,
+      "week": 0.514,
+      "year": 16.76
+    },
+    "tvl": 309284.85,
+    "host": "Ex Host 3",
+    "token": "Ex Token 4",
+    "stables": true,
+    "singleSided": false
+  }
+]

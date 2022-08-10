@@ -1,0 +1,140 @@
+.sidebar {
+  position: absolute;
+  width: 90%;
+  background-color: var(--secondary);
+  z-index: 10;
+  height: 100vh;
+  color: var(--text);
+
+  .content {
+    padding: 1rem;
+    height: 90%;
+    .close {
+      margin-bottom: 0.5rem;
+      width: 1.2rem;
+      height: 1.2rem;
+      cursor: pointer;
+    }
+
+    button {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0.8rem;
+      border-radius: 0.5rem;
+      margin-top: 0.5rem;
+      color: white;
+      border: none;
+      outline: none;
+    }
+
+    .walletInfo {
+      .coin {
+        display: flex;
+        align-items: center;
+        background-color: var(--background);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        width: 100%;
+
+        svg {
+          width: 2rem;
+          height: 2rem;
+        }
+
+        p {
+          margin-left: 0.5rem;
+          font-size: 0.9rem;
+        }
+      }
+
+      button {
+        background: rgb(83, 163, 245);
+        background: linear-gradient(
+          -90deg,
+          rgba(83, 163, 245, 1) 0%,
+          rgba(32, 122, 214, 1) 100%
+        );
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .sort {
+      margin: 1rem 0;
+      p {
+        font-size: 0.85rem;
+        font-weight: 400;
+      }
+
+      .selectedBtn {
+        background: rgb(83, 163, 245);
+        background: linear-gradient(
+          -90deg,
+          rgba(83, 163, 245, 1) 0%,
+          rgba(32, 122, 214, 1) 100%
+        );
+      }
+
+      .unselectedBtn {
+        background-color: var(--boxes);
+        color: var(--text);
+      }
+    }
+
+    .dropdown {
+      margin-bottom: 1rem;
+      width: 100%;
+      user-select: none;
+
+      .title {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        place-content: space-between;
+        width: 100%;
+
+        h5 {
+          font-size: 1rem;
+        }
+
+        svg {
+          width: 0.9rem;
+          height: 0.9rem;
+          opacity: 0.7;
+        }
+      }
+
+      .dropdownValues {
+        margin-top: 1rem;
+
+        p {
+          font-size: 0.9rem;
+          margin: 0.5rem 0;
+          margin-left: 0.5rem;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .filters {
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+  }
+}
+
+@media only screen and (min-width: 330px) {
+  .sidebar {
+    width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 1154px) {
+  .sidebar {
+    padding-top: 4.2rem;
+  }
+}

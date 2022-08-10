@@ -1,0 +1,123 @@
+.crypt {
+  background-color: var(--boxes);
+  border: 1px solid #373b47;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: var(--text);
+  width: 100%;
+
+  .top {
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+
+    p {
+      font-size: 0.8rem;
+      width: 80%;
+      font-weight: 500;
+    }
+  }
+
+  .profits {
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+    margin: 1.5rem 0;
+
+    .profitBlock {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+
+      span {
+        font-size: 0.6rem;
+        opacity: 0.5;
+        font-weight: lighter;
+      }
+
+      h4 {
+        font-size: 0.9rem;
+        color: var(--profitGreen);
+        font-weight: 500;
+        margin-top: 0.15rem;
+      }
+    }
+  }
+
+  p {
+    font-size: 0.7rem;
+    font-weight: lighter;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+
+    button {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.6rem;
+      width: 50%;
+      margin: 0 0.5rem;
+      border-radius: 0.5rem;
+      margin-top: 0.5rem;
+      color: white;
+      border: none;
+      outline: none;
+      background: rgba(32, 122, 214, 1);
+      border: 2px solid rgba(32, 122, 214, 1);
+      font-weight: 600;
+      font-size: 0.8rem;
+      transition: 0.25s ease-in-out;
+
+      &:hover {
+        background-color: darken(rgba(32, 122, 214, 1), 10%);
+      }
+    }
+
+    .hollowBtn {
+      background: transparent;
+      border: 2px solid rgba(32, 122, 214, 1);
+      color: rgba(32, 122, 214, 1);
+      transition: 0.25s ease-in-out;
+
+      &:hover {
+        background-color: rgba(32, 122, 214, 1);
+        color: var(--text);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .crypt {
+    width: 20rem;
+    padding: 0.75rem;
+    .top {
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .profits {
+      .profitBlock {
+        span {
+          font-size: 0.8rem;
+        }
+
+        h4 {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
+  }
+}
