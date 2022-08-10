@@ -30,7 +30,7 @@
     border-radius: 1rem;
     padding-top: 1rem;
     width: 100%;
-    height: 46.5rem;
+    height: 73vh;
     background-color: var(--secondary);
     border: 1px solid #2b303a;
 
@@ -123,6 +123,18 @@
 
     .cryptContainer {
       width: 93rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .home {
+    .totalLocked {
+      margin-left: 5rem;
+    }
+
+    .cryptContainer {
+      width: 100%;
     }
   }
 }

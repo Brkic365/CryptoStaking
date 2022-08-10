@@ -93,7 +93,7 @@ export default function Home() {
         <h1>$13,599,053.65</h1>
       </section>
       <section className={styles.cryptContainer}>
-        <SimpleBar style={{ maxHeight: "45rem" }}>
+        <SimpleBar style={{ maxHeight: "70vh" }}>
           <section className={styles.grid}>
             {
               // Map through all crypts and display them
